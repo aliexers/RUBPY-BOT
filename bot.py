@@ -3,7 +3,7 @@ from threading import Thread
 from random import choice
 from rubpy.network import Network
 
-bot = Socket('auth')
+bot = Socket('yhfwbdezsdvcmfssltsmkvuchxqidmd')
 net = Network()
 
 def ads(text):
@@ -35,8 +35,9 @@ def is_forwarded(data, forward_type,):
 				return False
 
 def answer(chat):
-	msg = '**در خدمتم**'
-	bot.rubika.sendMessage(bot.object_guid(chat), msg, reply_to_message_id = bot.message_id(chat))
+	ran = ["سید ناموصا ولمون کن 🗿","سید پدرت رو اینقدر صدا نمیکنی ها 🗿","جونم سید؟ 🗿","ای بابا باز اینه 🗿",]
+	sel = [choice(ran)
+	bot.rubika.sendMessage(bot.object_guid(chat), sel, reply_to_message_id = bot.message_id(chat))
 	return 1
 
 def deleteMessage(chat,):
