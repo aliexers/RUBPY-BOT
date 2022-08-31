@@ -3,7 +3,7 @@ from threading import Thread
 from random import choice
 from rubpy.network import Network
 
-bot = Socket('yhfwbdezsdvcmfssltsmkvuchxqidmd')
+bot = Socket('svthwxcxcusqpfpisryxzpklhkiieras')
 net = Network()
 
 def ads(text):
